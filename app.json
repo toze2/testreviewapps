@@ -1,0 +1,8 @@
+{
+  "name":"testreviewapps",
+  "scripts":{
+    "postdeploy":"bundle exec rake db:create db:migrate db:seed"
+  },
+  "env":{},
+  "addons":[]
+}
